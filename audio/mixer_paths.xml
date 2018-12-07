@@ -232,7 +232,7 @@
     <ctl name="OSPL Ext TxConfig" value="NONE" />
     <ctl name="OSPL Int RxConfig" value="NONE" />
     <ctl name="OSPL Int TxConfig" value="NONE" />
-    <ctl name="OSPL Rx" value="Enable" />
+    <ctl name="OSPL Rx" value="Disable" />
     <ctl name="OSPL Tx" value="Enable" />
 
     <!-- ADSP testfwk -->
@@ -850,6 +850,7 @@
 
     <path name="speaker">
         <ctl name="AMP Audio Gain" value="17" />
+        <ctl name="OSPL Rx" value="Enable" />
     </path>
 
    <path name="speaker-mic">
