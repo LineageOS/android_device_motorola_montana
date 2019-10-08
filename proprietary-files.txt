@@ -89,7 +89,7 @@ vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml|48d6c41c1533041b50e
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice|ff12185a0dee8e760acf1fa75f21a4cb85d81337
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|7bf008f50446da90bcbfdf19b0e44af48335d45d
 vendor/framework/com.fingerprints.extension.jar
-vendor/lib/com.fingerprints.extension@1.0_vendor.so
+vendor/lib/com.fingerprints.extension@1.0_vendor.so|17c2c6728b9088a0a788369903a1a180efd431f4
 
 # NFC
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
