@@ -6,6 +6,12 @@ on property:ro.boot.hardware.sku=*
 on init
     setprop ro.hw.imager 16MP
 
+on init && property:ro.boot.radio=APAC
+    setprop ro.boot.product.hardware.sku n
+
+on init && property:ro.boot.radio=EMEA
+    setprop ro.boot.product.hardware.sku n
+
     # Variant properties
 on property:ro.boot.radio=APAC
     setprop ro.hw.ecompass false
