@@ -2,16 +2,16 @@
 ##  are from montana_retail 8.1.0 OPPS28.65-37-7-12
 
 # Audio ACDB
-etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
-etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
-etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
-etc/acdbdata/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
-etc/acdbdata/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
-etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
-etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
+system/etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
+system/etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
+system/etc/acdbdata/Global_cal.acdb:vendor/etc/acdbdata/Global_cal.acdb
+system/etc/acdbdata/Handset_cal.acdb:vendor/etc/acdbdata/Handset_cal.acdb
+system/etc/acdbdata/Hdmi_cal.acdb:vendor/etc/acdbdata/Hdmi_cal.acdb
+system/etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
+system/etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-lib/libmot_lux_standardization.so:vendor/lib/libmot_lux_standardization.so
+system/lib/libmot_lux_standardization.so:vendor/lib/libmot_lux_standardization.so
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_wd3100.so
 vendor/lib/libgralloc1.so
@@ -98,14 +98,14 @@ vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
 vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so|79435a8077d05c9f1865860e97b157029e834a63
 
 # Opalum firmware
-etc/firmware/opalum.rx.ext.config.0:vendor/firmware/opalum.rx.ext.config.0
-etc/firmware/opalum.rx.ext.config.1:vendor/firmware/opalum.rx.ext.config.1
-etc/firmware/opalum.rx.ext.config.2:vendor/firmware/opalum.rx.ext.config.2
-etc/firmware/opalum.rx.ext.config.3:vendor/firmware/opalum.rx.ext.config.3
-etc/firmware/opalum.tx.ext.config.0:vendor/firmware/opalum.tx.ext.config.0
-etc/firmware/opalum.tx.ext.config.1:vendor/firmware/opalum.tx.ext.config.1
-etc/firmware/opalum.tx.ext.config.2:vendor/firmware/opalum.tx.ext.config.2
-etc/firmware/opalum.tx.ext.config.3:vendor/firmware/opalum.tx.ext.config.3
+system/etc/firmware/opalum.rx.ext.config.0:vendor/firmware/opalum.rx.ext.config.0
+system/etc/firmware/opalum.rx.ext.config.1:vendor/firmware/opalum.rx.ext.config.1
+system/etc/firmware/opalum.rx.ext.config.2:vendor/firmware/opalum.rx.ext.config.2
+system/etc/firmware/opalum.rx.ext.config.3:vendor/firmware/opalum.rx.ext.config.3
+system/etc/firmware/opalum.tx.ext.config.0:vendor/firmware/opalum.tx.ext.config.0
+system/etc/firmware/opalum.tx.ext.config.1:vendor/firmware/opalum.tx.ext.config.1
+system/etc/firmware/opalum.tx.ext.config.2:vendor/firmware/opalum.tx.ext.config.2
+system/etc/firmware/opalum.tx.ext.config.3:vendor/firmware/opalum.tx.ext.config.3
 
 # Sensors - from deen_sprout - QPKS30.54-22-11
 vendor/bin/sensors.qti|5f43a818c4c682956bed031b4fc9583d42b7f70a
@@ -123,5 +123,5 @@ vendor/lib64/sensors.ssc.so|761d2b907b60176a8ef77e7f9296337b936a5351
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|4ca1d6dbe9acfbc762234b622ab2e7fa3328275d
 
 # Touchscreen firmware
-etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:vendor/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat
-etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:vendor/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat
+system/etc/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:vendor/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat
+system/etc/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:vendor/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat
