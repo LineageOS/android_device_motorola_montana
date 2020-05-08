@@ -1,3 +1,6 @@
+### All blobs from this list, unless pinned and noted as otherwise,
+##  are from montana_retail 8.1.0 OPPS28.65-37-7-12
+
 # Audio ACDB
 etc/acdbdata/Bluetooth_cal.acdb:vendor/etc/acdbdata/Bluetooth_cal.acdb
 etc/acdbdata/General_cal.acdb:vendor/etc/acdbdata/General_cal.acdb
