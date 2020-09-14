@@ -1,0 +1,6 @@
+cc_binary_host {
+    srcs: ["dtbtool.c"],
+
+    // Hybrid v1/v2 dtbTool. Use a different name to avoid conflicts with copies in device repos
+    name : "dtbTool_custom"
+}
