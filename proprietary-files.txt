@@ -58,13 +58,35 @@ vendor/lib/libchromatix_s5k3p3_snapshot.so
 vendor/lib/libchromatix_s5k3p3_zsl_preview_3a.so
 vendor/lib/libchromatix_s5k3p3_zsl_video_3a.so
 
+# Camera chromatix - from montana - NZS26.68-117-10
+vendor/lib/libchromatix_mot_s5k3p8sp_4m_cpp_snapshot.so|04c76258351addd57fdadd4f15477f80571ce75f
+vendor/lib/libchromatix_mot_s5k3p8sp_common.so|aa8c264ec03c13a62d940b06397f40991363c341
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_hfr_120.so|0c8ed472404c77c16aa399332dda3523d0877702
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_liveshot.so|cf78e7be45a054c46cc1ca87abeb215e185bd686
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_preview.so|738dbacb93377800f9abdd2b3df5d5c1fe17b95c
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_snapshot.so|9738c56b73a1d9b914b55a591b0e9ae712565e2e
+vendor/lib/libchromatix_mot_s5k3p8sp_cpp_video.so|675cd1a12b5aaa5361764fcd17d6c6885474f014
+vendor/lib/libchromatix_mot_s5k3p8sp_default_preview_3a.so|723e4b7c0300dbd7ad30df45dbe634eba191d4a3
+vendor/lib/libchromatix_mot_s5k3p8sp_default_video_3a.so|5edf88ff5e26c9cd74a0ecff47cb927424a5a1da
+vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120_3a.so|f04e3899f37f0027d9d197a55210cb84a0deb507
+vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120.so|b8141010948948b780410d1e39c520dd9c92b933
+vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so|88ddf3f4bd6d214bbb0a8c505d516272512433e9
+vendor/lib/libchromatix_mot_s5k3p8sp_preview.so|9c36d7d815d2557d8a7df29d170d5b883c8a009a
+vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so|20b29d687113bb53374b63a09477dee32d38cbe7
+
 # Camera eeprom - from deen_sprout - PPKS29.68-16-36-14
 vendor/lib/libmmcamera_ov5695_eeprom.so|e3c068b0c7e5b288cfad3ad421b6b5760057763d
 vendor/lib/libmmcamera_s5k3p3_eeprom.so|d4c47ebfd3a42ff5279f22eef3484f9616133d5f
 
+# Camera eeprom - from montana - NZS26.68-117-10
+vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so|f030d2e8d444326e3cacfd4898aed042850c8b3a
+
 # Camera sensors
 vendor/lib/libmmcamera_mot_ov5695.so
 vendor/lib/libmmcamera_s5k3p3.so
+
+# Camera sensors - from montana - NZS26.68-117-10
+vendor/lib/libmmcamera_mot_s5k3p8sp.so|480025a93fef3fc4d47d0a75bc4b3382b478a175
 
 # Display calibration
 vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml|c93373787c79884ce8274dcd9813f84daf08c081
@@ -78,6 +100,9 @@ vendor/lib/com.fingerprints.extension@1.0_vendor.so
 
 # NFC
 vendor/firmware/libpn548ad_fw.so:vendor/lib/libpn548ad_fw.so
+
+# NFC - from montana - NZS26.68-117-10
+vendor/firmware/libpn553_fw.so:vendor/lib/libpn553_fw.so|79435a8077d05c9f1865860e97b157029e834a63
 
 # Opalum firmware
 etc/firmware/opalum.rx.ext.config.0:vendor/firmware/opalum.rx.ext.config.0

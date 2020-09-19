@@ -9,6 +9,9 @@ on init
 on init && property:ro.boot.radio=APAC
     setprop ro.boot.product.hardware.sku n
 
+on init && property:ro.boot.radio=China
+    setprop ro.boot.product.hardware.sku n
+
 on init && property:ro.boot.radio=EMEA
     setprop ro.boot.product.hardware.sku n
 
