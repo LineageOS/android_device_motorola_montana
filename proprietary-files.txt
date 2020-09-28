@@ -11,9 +11,7 @@ etc/acdbdata/Headset_cal.acdb:vendor/etc/acdbdata/Headset_cal.acdb
 etc/acdbdata/Speaker_cal.acdb:vendor/etc/acdbdata/Speaker_cal.acdb
 
 # Camera
-etc/permissions/privapp-permissions-com.motorola.cameraone.xml
 lib/libmot_lux_standardization.so:vendor/lib/libmot_lux_standardization.so
--priv-app/MotCamera/MotCamera.apk;PRESIGNED
 vendor/lib/libchromaflash.so
 vendor/lib/libflash_wd3100.so
 vendor/lib/libgralloc1.so
