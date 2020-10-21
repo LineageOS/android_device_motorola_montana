@@ -74,13 +74,6 @@ vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so|88ddf3f4bd6d214bbb0a8c505d51627
 vendor/lib/libchromatix_mot_s5k3p8sp_preview.so|9c36d7d815d2557d8a7df29d170d5b883c8a009a
 vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so|20b29d687113bb53374b63a09477dee32d38cbe7
 
-# Camera eeprom - from deen_sprout - PPKS29.68-16-36-14
-vendor/lib/libmmcamera_ov5695_eeprom.so|e3c068b0c7e5b288cfad3ad421b6b5760057763d
-vendor/lib/libmmcamera_s5k3p3_eeprom.so|d4c47ebfd3a42ff5279f22eef3484f9616133d5f
-
-# Camera eeprom - from montana - NZS26.68-117-10
-vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so|f030d2e8d444326e3cacfd4898aed042850c8b3a
-
 # Camera sensors
 vendor/lib/libmmcamera_mot_ov5695.so
 vendor/lib/libmmcamera_s5k3p3.so
