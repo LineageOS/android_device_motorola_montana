@@ -1,11 +1,3 @@
-on property:ro.boot.hardware.sku=*
-    # Set Hardware properties
-    setprop ro.product.model ${ro.boot.hardware.sku}
-    setprop ro.product.name montana
-
-on init
-    setprop ro.hw.imager 16MP
-
 on init && property:ro.boot.radio=APAC
     setprop ro.boot.product.hardware.sku n
 
@@ -14,19 +6,6 @@ on init && property:ro.boot.radio=China
 
 on init && property:ro.boot.radio=EMEA
     setprop ro.boot.product.hardware.sku n
-
-    # Variant properties
-on property:ro.boot.radio=APAC
-    setprop ro.hw.ecompass false
-
-on property:ro.boot.radio=Brazil
-    setprop ro.hw.ecompass false
-
-on property:ro.boot.radio=EMEA
-    setprop ro.hw.ecompass false
-
-on property:ro.boot.radio=LATAM
-    setprop ro.hw.ecompass true
 
 on boot
     # Change permission for fingerprint sensor
@@ -43,7 +22,7 @@ service vendor.sensors.qti /vendor/bin/sensors.qti
     group system
     disabled
 
-service sensor-sh /vendor/bin/init.qcom.sensors.sh
+service vendor.sensor-sh /vendor/bin/init.qcom.sensors.sh
     class core
     user root
     oneshot
