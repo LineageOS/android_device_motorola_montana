@@ -9,4 +9,5 @@ if ["$RADIO" == "Brazil" ] || [ "$RADIO" == "APAC" ] || [ "$RADIO" == "EMEA" ] |
 fi
 if [ "$RADIO" == "China" ]; then
     mv /vendor/etc/libnfc-nxp_retcn.conf /vendor/etc/libnfc-nxp.conf
+    mv /vendor/etc/thermal-engine-retcn.conf /vendor/etc/thermal-engine.conf
 fi
