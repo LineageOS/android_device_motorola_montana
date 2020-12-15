@@ -1,11 +1,13 @@
-on init && property:ro.boot.radio=APAC
+on init && property:ro.boot.hardware.sku=XT1793
     setprop ro.boot.product.hardware.sku n
 
-on init && property:ro.boot.radio=China
+on init && property:ro.boot.hardware.sku=XT1794
     setprop ro.boot.product.hardware.sku n
 
-on init && property:ro.boot.radio=EMEA
+on init && property:ro.boot.hardware.sku=XT1799-2
     setprop ro.boot.product.hardware.sku n
+    mount none /vendor/etc/libnfc-nxp_retcn.conf /vendor/etc/libnfc-nxp.conf bind
+    mount none /vendor/etc/thermal-engine-retcn.conf /vendor/etc/thermal-engine.conf bind
 
 on boot
     # Change permission for fingerprint sensor
