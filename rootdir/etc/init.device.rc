@@ -12,6 +12,9 @@ on init && property:ro.boot.hardware.sku=XT1799-2
     mount none /vendor/etc/libnfc-nxp_retcn.conf /vendor/etc/libnfc-nxp.conf bind
     mount none /vendor/etc/thermal-engine-retcn.conf /vendor/etc/thermal-engine.conf bind
 
+on boot && property:ro.boot.product.hardware.sku=n
+    start vendor.nfc_hal_service
+
 on boot
     # Change permission for fingerprint sensor
     chown system oem_5004 /sys/bus/spi/devices/spi1.0/nav
@@ -20,6 +23,15 @@ on boot
     chown system oem_5004 /sys/bus/spi/devices/spi1.0/irq
     chown system oem_5004 /sys/bus/spi/devices/spi1.0/irq_cnt
     chmod 0440 /sys/bus/spi/devices/spi1.0/irq_cnt
+
+service vendor.nfc_hal_service /vendor/bin/hw/android.hardware.nfc@1.2-service
+    interface android.hardware.nfc@1.0::INfc default
+    interface android.hardware.nfc@1.1::INfc default
+    interface android.hardware.nfc@1.2::INfc default
+    class hal
+    user nfc
+    group nfc
+    disabled
 
 service vendor.sensors.qti /vendor/bin/sensors.qti
     class core
