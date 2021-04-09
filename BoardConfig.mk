@@ -44,4 +44,4 @@ BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Inherit from the proprietary version
--include vendor/motorola/montana/BoardConfigVendor.mk
+include vendor/motorola/montana/BoardConfigVendor.mk
