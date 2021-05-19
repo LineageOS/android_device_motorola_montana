@@ -87,6 +87,7 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
     <CameraId>0</CameraId>
     <SensorName>s5k3p3</SensorName>
+    <EepromName>s5k3p3</EepromName>
     <ActuatorName>dw9767</ActuatorName>
     <FlashName>pmic</FlashName>
     <ChromatixName>s5k3p3_chromatix</ChromatixName>
@@ -111,6 +112,7 @@ LensInfo : Information of the lens present in the module.
   <CameraModuleConfig>
     <CameraId>1</CameraId>
     <SensorName>mot_ov5695</SensorName>
+    <EepromName>ov5695</EepromName>
     <FlashName>wd3100</FlashName>
     <ChromatixName>mot_ov5695_l5695f60_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>

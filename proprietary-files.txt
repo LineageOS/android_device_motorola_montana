@@ -135,6 +135,10 @@ vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so|88ddf3f4bd6d214bbb0a8c505d51627
 vendor/lib/libchromatix_mot_s5k3p8sp_preview.so|9c36d7d815d2557d8a7df29d170d5b883c8a009a
 vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so|20b29d687113bb53374b63a09477dee32d38cbe7
 
+# Camera eeprom - from deen_sprout - PPKS29.68-16-36-14
+vendor/lib/libmmcamera_ov5695_eeprom.so|e3c068b0c7e5b288cfad3ad421b6b5760057763d
+vendor/lib/libmmcamera_s5k3p3_eeprom.so|d4c47ebfd3a42ff5279f22eef3484f9616133d5f
+
 # Camera ISP - from deen_sprout - QPKS30.54-22-12
 vendor/lib/libmmcamera_isp_abf40.so|d5680729e89d11e3c2a863d628c398d2c6ff9784
 vendor/lib/libmmcamera_isp_bcc40.so|83f0882de39934c897809c172bdfa4af2f9c97c4
