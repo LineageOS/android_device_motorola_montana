@@ -1,2 +1,0 @@
-# Fingerprint
-/sys/devices/soc/78b5000.spi/spi_master/spi1/spi1.0/proximity_state u:object_r:sysfs_fps_proximity:s0
