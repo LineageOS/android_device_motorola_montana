@@ -182,6 +182,9 @@ vendor/lib/libmmcamera_s5k3p3.so
 # Camera sensors - from montana - NZS26.68-117-10
 vendor/lib/libmmcamera_mot_s5k3p8sp.so|480025a93fef3fc4d47d0a75bc4b3382b478a175
 
+# Charger - from payton - PPWS29.69-39-2-1
+vendor/bin/charge_only_mode|096651d7856e248d8a6edf0b413cc886e1b5d4dc
+
 # Display calibration
 vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml|c93373787c79884ce8274dcd9813f84daf08c081
 vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml|48d6c41c1533041b50e3e45649dcf60fc2bd6243
