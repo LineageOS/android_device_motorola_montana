@@ -14,8 +14,8 @@ on init && property:ro.boot.hardware.sku=XT1799-2
 
 on init
     # Change ownership for Pocketmode feature
-    chown system system /sys/devices/soc/78b5000.spi/spi_master/spi1/spi1.0/proximity_state
-    chmod 0660 /sys/devices/soc/78b5000.spi/spi_master/spi1/spi1.0/proximity_state
+    chown system system /sys/bus/spi/devices/spi1.0/proximity_state
+    chmod 0660 /sys/bus/spi/devices/spi1.0/proximity_state
 
 on boot && property:ro.boot.product.hardware.sku=n
     start vendor.nfc_hal_service
